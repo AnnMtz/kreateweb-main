@@ -50,9 +50,9 @@
 /*Carrrusel.js*/
 .d-block{
   margin: 16px auto;
-  width: 52%;
+  width: 46%;
   height: 33rem;
-  border-radius: 16px;
+  border-radius: 50px;
 }
 
 .carousel-inner {
@@ -146,7 +146,7 @@ footer {
   width: 35%;
 }
 #nav-f{
-  margin-left: 30px;
+  margin-left: 35px;
   margin-top: 10px;
 }
 #button {
@@ -159,7 +159,8 @@ footer {
   border-radius: 25px;
   background-color: #dc3935d1;
   font-weight: bold;
-  margin-right: 76px;
+  margin-right: 8rem;
+  margin-left: 25rem;
 }
 
 #button a {
@@ -172,6 +173,19 @@ footer .cards {
   opacity: 98%;
 }
 
+.infoCol {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  color: white;
+  opacity: .9;
+}
+
+.footerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .paragraph,
 .contact-info {
   font-style: italic;
@@ -189,14 +203,14 @@ footer .cards {
 }
 
 .redes {
-  width: 5%;
-  height: 31%;
+  width: 7%;
+  height: 47%;
 }
 
 .social-media {
   display: flex;
   justify-content: flex-end;
-  padding-right: 4rem !important;
+  padding-right: 5.6rem !important;
   padding-left: 0;
   align-items: center;
 }
