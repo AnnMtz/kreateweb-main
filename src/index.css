@@ -1,0 +1,413 @@
+*{
+  font-family: Fuente Segoe UI;
+  box-sizing: border-box;
+}
+
+#container {
+  padding: 0px;
+  margin-bottom: 16px;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  opacity: 1.5;
+}
+
+.navbar {
+  background: url('../src/assets/img/background2.jpg');
+  opacity: 86%;
+  -webkit-box-shadow: -1px 6px 5px 0px rgba(148,143,148,1);
+  -moz-box-shadow: -1px 6px 5px 0px rgba(148,143,148,1);
+  box-shadow: -1px 6px 5px 0px rgba(18 17 18);
+  margin-bottom: 7px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 17px;
+}
+
+.logo {
+  width: 54%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: #ffffffde !important;
+  font-weight: bold;
+  opacity: 98%;
+  font-size: 22px;
+}
+
+#navbarSupportedContent {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.container {
+  margin-top: 9px;
+}
+
+/*Carrrusel.js*/
+.d-block{
+  margin: 16px auto;
+  width: 52%;
+  height: 33rem;
+  border-radius: 16px;
+}
+
+.carousel-inner {
+  background: #343a40;
+  opacity: .8;
+}
+
+.carousel-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.container h1 {
+  color: #3D51D0;
+  opacity: 90%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/*main.js*/
+#header {
+  color: #3d51d0cf;
+  opacity: .9;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.mainCol {
+  max-width: 26.333333% !important;
+  margin: auto;
+}
+
+.mainCard {
+  background-color: ghostwhite;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  color: #dc3545c7;
+  opacity: .9;
+  text-align: justify;
+}
+
+.card-img {
+  height: 42%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+#plan {
+  margin-top: 48px;
+}
+
+#info {
+  justify-content: flex-end;
+  display: flex;
+  cursor: pointer;
+}
+
+#info:hover {
+  color: darkgrey;
+  text-decoration: none;
+  font-size: large;
+}
+
+/*Footer.js*/
+footer {
+  overflow: hidden;
+  background: url('../src/assets/img/background2.jpg');
+  opacity: 86%;
+}
+
+.footerContainer{
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .logo {
+  width: 35%;
+}
+#nav-f{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+#button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 42px;
+  height: 30px;
+  width: 104px;
+  border-radius: 25px;
+  background-color: #dc3935d1;
+  font-weight: bold;
+  margin-right: 76px;
+}
+
+#button a {
+  color: #000486;
+  font-size: 14px;
+}
+
+footer .cards {
+  color: #ffffffde;
+  opacity: 98%;
+}
+
+.paragraph,
+.contact-info {
+  font-style: italic;
+  font-size: 13px;
+}
+
+#second-paragraph {
+  font-weight: bold;
+  margin-bottom: 10px !important;
+  text-decoration: underline;
+}
+#face {
+  width: 8%;
+  margin-right: 4px;
+}
+
+.redes {
+  width: 5%;
+  height: 31%;
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4rem !important;
+  padding-left: 0;
+  align-items: center;
+}
+
+/*Nosotros.js*/
+.container-fluid {
+  padding: 0px;
+  overflow: hidden;
+}
+.about-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  padding-bottom: 5%;
+  background-color: #1f1e1e;
+  margin-top: 0px;
+}
+
+.image {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+#company {
+  border: 1px solid black;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.about-img h1{
+  margin-top: 40px;
+  color: #3D51D0;
+}
+
+.about-img h3 {
+  color: #002bffd9;
+  opacity: 53%;
+  font-style: italic;
+}
+
+/*Contacto.js*/
+.contact-icons {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-card {
+  color: #000000c7;
+}
+
+form button {
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+/*additional.js*/
+blockquote {
+  margin: 43px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: dodgerblue;
+}
+
+.card-add{
+  border: 2px solid darkgray;
+  margin-top: 20px;
+  background: whitesmoke;
+  border-radius: 10px;
+}    
+
+.card-title-add{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card-text-add{
+  margin: 25px 26px 18px 0;
+}
+
+#redes {
+  margin-left: 3em;
+}
+
+#redes li{
+  list-style: none;
+}
+
+#fotter-add{
+  margin-top: 8em;
+}
+
+/*responsive*/
+@media screen and (max-width: 1366px){
+  #values-list{
+      margin-left: 100px;
+  }
+
+  .card-text{
+      margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+      width: 50%;
+  }
+
+  .card-img {
+      height: 23%;
+  }
+
+  #values-list{
+      margin-left: 20px;
+  }
+  
+  .card-text{
+      margin-right: 10px;
+  }
+
+  #plan {
+      margin-top: 28px;
+  }
+
+  footer {
+      overflow: hidden;
+  }
+
+  .footer {
+      margin-left: 13px;
+      margin-right: 6px;
+  }
+
+  #face{
+      width: 33%;
+  }
+  .social-media {
+      padding-right: 7%;
+  }
+
+  .redes {
+      height: 44%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #nav-a{
+      display: inline-flex;
+      width: 50%;
+  }
+  .logo {
+      width: 90%;
+  }
+
+  .card{
+      margin: 0px!important;
+  }
+
+  .card-title-add{
+      margin-bottom: 20px;
+  }
+
+  .card-text-add{
+      margin-left: 25px;
+      margin-right: 40px;
+      text-align: justify;
+  }
+  .card-img {
+      height: 48%;
+  }
+  .contact-card card-body{
+      margin-right: 20px;
+  }
+
+  .footer {
+      margin-left: 8px;
+      margin-right: 8px;
+  }
+
+  #nav-f{
+      width: 80%;
+      margin-left: 10px;
+  }
+
+  #face {
+      width: 20%;
+  }
+
+  .social-media {
+      padding-right: 11%;
+  }
+
+  #company {
+      width: 230px;
+      height: 230px;
+  }
+
+  .about-img h1 {
+      margin-left: 5%;
+      font-size: 29px;
+  }
+
+  .about-img h3 {
+      font-size: 16px;
+  }
+}
